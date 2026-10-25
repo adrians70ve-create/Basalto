@@ -1,0 +1,116 @@
+html_content = """<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presencia de Basalto en el Estado Carabobo, Venezuela</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 30px;
+        }
+        .section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .reference {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-left: 4px solid #7f8c8d;
+            margin-bottom: 10px;
+        }
+        .footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #7f8c8d;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Presencia de Basalto en el Estado Carabobo, Venezuela</h1>
+
+    <div class="section">
+        <h2>Contexto Geológico</h2>
+        <p>
+            El estado Carabobo se encuentra dominado geológicamente por la <strong>Cordillera de la Costa</strong> y la <strong>Serranía del Interior</strong>, estructuras que forman parte del Sistema Montañoso del Caribe. Las rocas ígneas y metamórficas de esta región son el resultado de la compleja interacción tectónica entre las placas del Caribe y Suramericana. En este contexto, el <strong>basalto</strong> y sus equivalentes metamorfizados (metabasaltos) o intrusivos (diques de diabasa/basalto) se encuentran distribuidos en franjas tectónicas específicas.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Áreas de Presencia en Carabobo</h2>
+        <ul>
+            <li>
+                <strong>Faja Tectónica de Villa de Cura (Sur y Sureste de Carabobo):</strong> 
+                Esta franja montañosa que se extiende por el sur del estado (en los límites con Aragua y Guárico) contiene el llamado <em>Grupo Villa de Cura</em>. Está compuesto por secuencias masivas de rocas metavolcánicas que incluyen protolitos de <strong>basaltos toleíticos y basaltos primitivos de arco de islas</strong>. Estas efusiones basálticas submarinas fueron posteriormente metamorfizadas.
+            </li>
+            <li>
+                <strong>Región Oriental del Estado Carabobo:</strong>
+                Investigaciones clásicas (como las de E. R. Oxburgh) en el oriente de Carabobo reportan la existencia de <strong>diques de basalto, gabro y diabasa</strong> que intruyen las rocas metamórficas más antiguas de la Cordillera de la Costa. Estas intrusiones basálticas representan eventos de magmatismo basáltico posteriores a la formación de las rocas encajantes.
+            </li>
+            <li>
+                <strong>Faja de Caucagua - El Tinaco (Centro-Sur de Carabobo):</strong>
+                En esta zona, que atraviesa partes centrales y del sur de Carabobo, se identifican intrusiones máficas que cortan el basamento pre-Mesozoico. Se presentan formaciones ígneas menores y cuerpos de rocas verdes (greenstones) derivadas de lavas basálticas, así como diques porfídicos.
+            </li>
+            <li>
+                <strong>Zona de Crucito y Albarico (Límites Carabobo-Yaracuy):</strong>
+                Hacia el occidente y noroccidente del estado, los estudios petrográficos modernos han identificado trazas de magmatismo primitivo que incluyen enclaves y diques basálticos originados en ambientes de arcos insulares oceánicos durante el Cretácico.
+            </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Referencias Bibliográficas</h2>
+        
+        <div class="reference">
+            <strong>Oxburgh, E. R. (1965).</strong> <em>Geología de la región oriental del estado Carabobo, Venezuela</em>. Boletín de Geología, Ministerio de Minas e Hidrocarburos. Caracas, Venezuela. (Detalla la estratigrafía y la presencia de diques basálticos y gabros en el oriente de Carabobo).
+        </div>
+        
+        <div class="reference">
+            <strong>Urbani, F. (2018).</strong> <em>Una revisión de los terrenos geológicos del Sistema Montañoso del Caribe, norte de Venezuela</em>. Boletín de Geología, Volumen XXIII Número 36. (Describe de forma exhaustiva las fajas tectónicas, incluyendo Villa de Cura y las rocas efusivas máficas).
+        </div>
+        
+        <div class="reference">
+            <strong>Menéndez, A. (1966).</strong> <em>Tectónica de la parte central de las Montañas Occidentales del Caribe, Venezuela</em>. Boletín de Geología. (Define las unidades estructurales principales donde afloran secuencias metavolcánicas de origen basáltico).
+        </div>
+        
+        <div class="reference">
+            <strong>Ynfante, M., et al. (2019/2020).</strong> <em>Estudio geológico-petrográfico e integración de las zonas ígneo-metamórficas de Yaracuy y Carabobo</em>. Trabajo Especial de Grado. (Aporta datos recientes sobre basaltos primitivos de arco de islas en el límite occidental de Carabobo).
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Documento generado para investigación geológica.</p>
+    </div>
+
+</body>
+</html>"""
+
+with open("Presencia_Basalto_Carabobo.html", "w", encoding="utf-8") as file:
+    file.write(html_content)
+print("File generated: Presencia_Basalto_Carabobo.html")

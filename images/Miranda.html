@@ -1,0 +1,116 @@
+html_content = """<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presencia de Basalto en el Estado Miranda, Venezuela</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f3f4;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 2px solid #16a085;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #117a65;
+            margin-top: 30px;
+        }
+        .section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .reference {
+            background-color: #e8f8f5;
+            padding: 15px;
+            border-left: 4px solid #1abc9c;
+            margin-bottom: 10px;
+        }
+        .footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #7f8c8d;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Presencia de Basalto en el Estado Miranda, Venezuela</h1>
+
+    <div class="section">
+        <h2>Contexto Geológico</h2>
+        <p>
+            El estado Miranda posee una geología sumamente diversa, abarcando gran parte de la <strong>Cordillera de la Costa</strong> y la <strong>Serranía del Interior</strong>. Al igual que Aragua y Carabobo, Miranda fue moldeado por la orogénesis caribeña. Aunque predominan las rocas metasedimentarias (esquistos, filitas, mármoles) y los intrusivos graníticos, el <strong>basalto</strong> y sus derivados metamórficos o intrusivos máficos están presentes en fajas tectónicas específicas, marcando suturas y eventos de vulcanismo antiguo.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Áreas de Presencia en Miranda</h2>
+        <ul>
+            <li>
+                <strong>Formación Tiara (Suroeste de Miranda, límite con Aragua):</strong> 
+                Esta secuencia se adentra en territorio mirandino. Es una de las unidades más representativas de vulcanismo básico efusivo en la región, exhibiendo espectaculares <strong>lavas almohadilladas (pillow lavas)</strong> de composición basáltica, tobas y brechas basálticas depositadas en ambientes submarinos.
+            </li>
+            <li>
+                <strong>Complejo Ofiolítico de Loma de Hierro (Límite Miranda-Aragua):</strong>
+                Este remanente de corteza oceánica abarca sectores de Miranda. Junto con las peridotitas serpentinizadas (famosas por sus menas de níquel laterítico), el complejo incluye componentes de gabro y <strong>basaltos toleíticos oceánicos (metabasaltos)</strong> típicos de secuencias ofiolíticas.
+            </li>
+            <li>
+                <strong>Eje Valles del Tuy (Yare - Santa Lucía - Cúa):</strong>
+                En las cercanías de los Valles del Tuy y las estribaciones de la Serranía del Interior, se reportan afloramientos aislados de "rocas verdes" (greenstones) e intrusiones menores, representadas por <strong>diques diabásicos y basálticos</strong> que cortan las formaciones metasedimentarias más antiguas.
+            </li>
+            <li>
+                <strong>Región de Barlovento y Costa Mirandina (Área de Higuerote - Cabo Codera):</strong>
+                Aunque la región oriental de la costa mirandina (como Higuerote y las bahías cercanas como Playa Los Totumos) está caracterizada principalmente por depósitos recientes, procesos de erosión costera y el basamento metamórfico/granítico subyacente (Complejo de Guaremal), existen reportes de pequeños diques máficos y basálticos que se emplazaron transversalmente en las rocas metamórficas de la Cordillera de la Costa durante eventos extensionales.
+            </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Referencias Bibliográficas</h2>
+        
+        <div class="reference">
+            <strong>Macsotay, O., et al. (1986).</strong> <em>Estratigrafía y tectónica de la Formación Tiara</em>. Boletín de la Sociedad Venezolana de Geólogos. (Detalla la extensión de las lavas almohadilladas basálticas hacia el sur de Miranda).
+        </div>
+        
+        <div class="reference">
+            <strong>Urbani, F. (2018).</strong> <em>Una revisión de los terrenos geológicos del Sistema Montañoso del Caribe, norte de Venezuela</em>. Boletín de Geología, Volumen XXIII Número 36. (Contextualiza las ofiolitas de Loma de Hierro y las rocas ígneas en Miranda).
+        </div>
+        
+        <div class="reference">
+            <strong>Aguerrevere, S. E., & Zuloaga, G. (1937).</strong> <em>Observaciones geológicas en la parte central de la Cordillera de la Costa, Venezuela</em>. Boletín de Geología y Minería. (Trabajo clásico que menciona los diques básicos que cortan las secuencias metamórficas en Miranda).
+        </div>
+        
+        <div class="reference">
+            <strong>Beck, C. (1986).</strong> <em>Geología de la faja piemontina y del frente de montaña en el centro-norte de Venezuela</em>. Ministerio de Energía y Minas. (Aborda las estructuras tectónicas de los Valles del Tuy y Barlovento).
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Documento generado para investigación geológica.</p>
+    </div>
+
+</body>
+</html>"""
+
+with open("Presencia_Basalto_Miranda.html", "w", encoding="utf-8") as file:
+    file.write(html_content)
+print("File generated: Presencia_Basalto_Miranda.html")
